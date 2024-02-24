@@ -2,8 +2,8 @@
 #include <stdbool.h>
 
 int main(){
-    bool a = true;
-    bool b = false;
+    _Bool a = true;
+    _Bool b = false;
 
     printf("true: %d \n",a);
     printf("false: %d \n",b);
