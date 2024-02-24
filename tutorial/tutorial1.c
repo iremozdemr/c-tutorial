@@ -14,14 +14,7 @@
 //statically typed
 //middle level
 
-int main()
-{
-
-    printf("hello world");
-    printf("\n");
-    printf("hello");
-    printf("\n");
-
+int main(){
     printf("%s is the best person ever","irem");
     printf("\n");
     printf("%s is the best %s ever","irem","programmer");

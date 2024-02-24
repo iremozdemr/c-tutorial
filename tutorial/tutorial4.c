@@ -27,6 +27,6 @@ int main(){
     int y = 3;
     printf("%i\n", x>y); //sonuc 1
     printf("%i\n", x<y); //sonuc 0
-
+    
     return 0;
 }
