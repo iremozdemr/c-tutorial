@@ -14,6 +14,7 @@ int main(){
     return 0;
 }
 
+
 //constant variable'lar 2 şekilde tanımlanabilir
 //define kullanarak
 //const kullanarak
