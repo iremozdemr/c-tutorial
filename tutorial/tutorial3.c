@@ -36,8 +36,8 @@ int main(){
     printf("%f\n",num3); //sonuc 2 olur
     //implicit conversion
 
-    float num3 = (float)5/2;
-    printf("%f\n",num3); //sonuc 2.5 olur
+    float num4 = (float)5/2;
+    printf("%f\n",num4); //sonuc 2.5 olur
     //explicit conversion
 
     return 0;
