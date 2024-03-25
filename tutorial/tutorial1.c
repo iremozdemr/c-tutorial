@@ -14,6 +14,14 @@
 //statically typed
 //middle level
 
+//programı çalıştırma 1. yol:
+//gcc tutorial1.c
+//./oluşandosya
+
+//programı çalıştırma 2. yol:
+//gcc -o myfile tutorial1.c
+//./myfile
+
 int main(){
     printf("%s is the best person ever","irem");
     printf("\n");
