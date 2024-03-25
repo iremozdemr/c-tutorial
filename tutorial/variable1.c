@@ -45,12 +45,25 @@ int main(){
     printf("\n");
     printf("the float number is %.4f",2.1234567);
     printf("\n");
+    printf("the octal number is %o",67);
+    printf("\n");
+    printf("the hexadecimal number is %x",15454);
+    printf("\n");
+    printf("the hexadecimal number is %X",15454);
+    printf("\n");
 
     printf("line1");
     printf("\n\n"); //bir satir bosluk yaratir
     printf("line2");
     printf("\n");
-    
+
+    printf("%%"); //% karakterini ekrana bastırır
+    printf("\n");
+
+    int number = printf("%s \n","hello world");
+    printf("%d \n",number);
+    //ekrana yazılan yazının karakter sayısını döndürür
+
     return 0;
 }
 
@@ -61,6 +74,8 @@ int main(){
 //double icin %lf
 //double icin %f
 //float icin %f
+//octal icin %o
+//hexadecimal icin %x veya %X
 //bilimsel gosterim icin %e
 //computer decides %g
 

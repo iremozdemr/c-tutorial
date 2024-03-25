@@ -1,16 +1,6 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int main(){
-
-    //multiple string input
-    char fullName2[30];
-
-    printf("enter ur fullname: \n");
-    fgets(fullName2,sizeof(fullName2),stdin);
-
-    printf("%s",fullName2);
-
     /*
     //multiple string input
     char fullName1[30];
@@ -20,6 +10,14 @@ int main(){
 
     printf("%s \n",fullName1);
     */
+
+    //multiple string input
+    char fullName2[30];
+
+    printf("enter ur fullname: \n");
+    fgets(fullName2,sizeof(fullName2),stdin);
+
+    printf("%s",fullName2);
 
     //input
     char firstName[10];
@@ -49,3 +47,7 @@ int main(){
 
     return 0;
 }
+
+//scanf("%d",&intVariable);
+//scanf("%f",&floatVariable);
+//scanf("%c",&charVariable);
