@@ -36,6 +36,9 @@ int main(){
 //static
 
 //constant(const)
+//--> degistirilemez degisken olusturur
+//--> degistirilmeye calisilirsa hata verir
+//--> tanimlandiği satirda deger atanmalidir
 
 //automatic(auto)
 //--> local variable'lar default olarak auto variable'dır

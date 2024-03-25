@@ -2,12 +2,6 @@
 #include <stdbool.h>
 
 int main(){
-    
-    const int number = 15;
-    //degistirilemez degisken olusturur
-    //degistirilmeye calisilirsa hata verir
-    //tanimlandiği satirda deger atanmalidir
-
     bool statement1 = true;
     bool statement2 = false;
     printf("%i\n", statement1); //sonuc 1
