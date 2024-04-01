@@ -1,21 +1,14 @@
 #include <stdio.h>
 
 int main(){
-    int array[] = {10,100,250};
-    int *pointer = array;
+    int num1;
+    int *pointer1 = &num1;
 
-    printf("element1: %d \n",pointer[0]);
-    printf("element2: %d \n",pointer[1]);
-    printf("element3: %d \n",pointer[2]);
+    int num2 = 5;
+    int *pointer2 = &num2;
 
-    printf("pointer: %p \n",pointer);
-    printf("element: %d \n",*pointer);
-    pointer++;
-    printf("pointer: %p \n",pointer);
-    printf("element: %d \n",*pointer);
-    pointer++;
-    printf("pointer: %p \n",pointer);
-    printf("element: %d \n",*pointer);
+    printf("pointer1 %p \n",pointer1);
+    printf("pointer2 %p \n",pointer2);
 
     return 0;
 }

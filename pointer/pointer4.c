@@ -1,22 +1,24 @@
 #include <stdio.h>
 
+void changeValue(int n){
+    n = 20;
+}
+
 int main(){
-    int value1 = 5;
-    int *pointer1 = &value1;
+    int number1 = 10;
+    printf("number1: %d \n",number1);
 
-    printf("pointer: %d \n",pointer1);
-    pointer1++;
-    printf("pointer+1: %d \n",pointer1);
-    pointer1--;
-    printf("pointer-1: %d \n",pointer1);
+    changeValue(number1);
+    printf("number1: %d \n",number1);
 
-    int value2 = 7;
-    int *pointer2 = &value2;
+    static int number2 = 15;
+    printf("number2: %d \n",number2);
 
-    printf("pointer: %d \n",pointer2);
-    pointer2 = pointer2+5;
-    printf("pointer+5: %d \n",pointer2);
-    pointer2 = pointer2-5;
-    printf("pointer-5: %d \n",pointer2);
+    changeValue(number2);
+    printf("number2: %d \n",number2);
+
     return 0;
 }
+
+//pass by value
+//pass by reference
