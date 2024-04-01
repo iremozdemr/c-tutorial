@@ -2,6 +2,7 @@
 
 int main(){
     int array[5] = {1,2,3,4,5};
+    
     int *pointer1 = array;
     int *pointer2 = &array[0];
     //int *pointer1 = &array;

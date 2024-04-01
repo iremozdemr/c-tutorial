@@ -57,3 +57,8 @@ int main(){
 
 //array type void olamaz
 //array type function olamaz
+
+//int myArray1[];
+//yanlış
+//int myArray2[5];
+//doğru

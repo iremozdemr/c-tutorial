@@ -18,5 +18,26 @@ int main(){
     }
     printf("\n");
 
+    printf("pointer 1: %p \n",elementPointer);
+    printf("element 1: %d \n",*(elementPointer));
+
+    printf("pointer 2: %p \n",elementPointer+1);
+    printf("element 2: %d \n",*(elementPointer+1));
+
+    printf("pointer 3: %p \n",elementPointer+2);
+    printf("element 3: %d \n",*(elementPointer+2));
+
+    printf("pointer 4: %p \n",elementPointer+3);
+    printf("element 4: %d \n",*(elementPointer+3));
+
+    printf("pointer 5: %p \n",elementPointer+4);
+    printf("element 5: %d \n",*(elementPointer+4));
+
+    printf("pointer 6: %p \n",elementPointer+5);
+    printf("element 6: %d \n",*(elementPointer+5));
+
+    printf("pointer 7: %p \n",elementPointer+6);
+    printf("element 7: %d \n",*(elementPointer+6));
+
     return 0;
 }
