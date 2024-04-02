@@ -7,5 +7,6 @@ int main(){
     gets(text);
 
     printf("you entered: %s \n",text);
+    
     return 0;
 }
