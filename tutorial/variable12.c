@@ -1,26 +1,16 @@
 #include <stdio.h>
-#include <stdbool.h>
 
-int main(){
-    bool statement1 = true;
-    bool statement2 = false;
-    printf("%i\n", statement1); //sonuc 1
-    printf("%i\n", statement2); //sonuc 0
+int main() {
 
-    _Bool statement3 = true;
-    _Bool statement4 = false;
-    printf("%i\n", statement3); //sonuc 1
-    printf("%i\n", statement4); //sonuc 0
+    char mychar1 = 'a';
 
-    bool isHamburgerTasty = true;
-    bool isPizzaTasty = true;
-    printf("%d\n", isHamburgerTasty == isPizzaTasty); //sonuc 1
-    //boolean ifadeler de karsilastirilabilir
+    putchar(mychar1); 
+    //ekrana 'a' karakterini yazar 
 
-    int x = 5;
-    int y = 3;
-    printf("%i\n", x>y); //sonuc 1
-    printf("%i\n", x<y); //sonuc 0
-    
+    char mychar2 = '\n';
+
+    putchar(mychar2); 
+    //bir satır aşağı geçer 
+
     return 0;
 }

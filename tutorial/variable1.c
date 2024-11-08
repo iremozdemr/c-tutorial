@@ -2,6 +2,15 @@
 //printf ve scanf gibi methodlar bu baslik dosyasinda tanimlanmistir
 
 //.h ile biten dosyalar = header files
+//.c ile biten dosyalar = source files
+
+//header files:
+//stdio.h – standard c library i-o
+//stdlib.h – standard c library general purpose
+//math.h – standard c library mathematical operations
+//string.h – standard c library string manipulation
+//time.h – standart c library time
+//ctype.h – character functions
 
 //lines begin with # are processed by the preprocesser before the program is compiled
 //#include <file name>
@@ -13,14 +22,27 @@
 //procedural
 //statically typed
 //middle level
+//core
+//cross platform
+//block structured
+//imperative
+
+//c programming flow:
+//1- preprocessor
+//2- compiler
+//3- linker
+//4- loader
+//5- cpu
+
+//gcc –g helloWorld.c –o outName
 
 //programı çalıştırma 1. yol:
-//gcc tutorial1.c
+//gcc tutorial.c
 //./oluşandosya
 
 //programı çalıştırma 2. yol:
-//gcc -o myfile tutorial1.c
-//./myfile
+//gcc tutorial.c -o oluşandosya
+//./oluşandosya
 
 int main(){
     printf("%s is the best person ever","irem");
@@ -34,6 +56,8 @@ int main(){
     printf("the number is %d",5); 
     printf("\n");
     printf("the number is %i",5); 
+    printf("\n");
+    printf("the number is %08i",5); 
     printf("\n");
     printf("the number is %c",65); //integer degiskenin char halini yazar
     printf("\n");

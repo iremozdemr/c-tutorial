@@ -1,7 +1,13 @@
 #include <stdio.h>
 
-//every program must have the main function
-//all functions must be declared or defined before being used
+//her programda main function olmak zorundadır
+
+//her function kullanılmadan önce bunlardan biri yapılmalıdır:
+//-declare edilmelidir
+//-define edilmelidir
+
+//eğer function'da return type yazılmazsa
+//default olarak return type int olur
 
 //program organization:
 //include

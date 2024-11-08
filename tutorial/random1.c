@@ -1,12 +1,14 @@
+//rand():
+//0 ve RAND_MAX arasında rastgele bir sayı üretir
+
+//srand():
+//program her çalıştırıldığında rand()'in aynı sayıyı üretmesini engeller
+
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 
 int main(){
-    srand(time(NULL));
-
     int randomNumber = rand();
-
     printf("%d \n",randomNumber);
 
     return 0;

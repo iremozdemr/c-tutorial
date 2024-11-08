@@ -1,16 +1,6 @@
 #include <stdio.h>
 
 int main(){
-    /*
-    //multiple string input
-    char fullName1[30];
-
-    printf("enter ur fullname:");
-    scanf("%s",fullName1);
-
-    printf("%s \n",fullName1);
-    */
-
     //multiple string input
     char fullName2[30];
 
@@ -51,3 +41,4 @@ int main(){
 //scanf("%d",&intVariable);
 //scanf("%f",&floatVariable);
 //scanf("%c",&charVariable);
+//scanf("%s",stringVariable);

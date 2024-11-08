@@ -7,7 +7,7 @@ enum variables {variable2=6};
 const int variable3 = 5;
 
 int main(){
-    const int variable4 = 4;
+    const int variable4 = 12;
 
     printf("variable1: %d \n",variable1);
     printf("variable2: %d \n",variable2);
