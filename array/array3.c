@@ -15,6 +15,10 @@ int* function2(){
 }
 
 int main(){
+    int array[5] = {11,22,33,44,55};
+
+    function1(array);
+
     int *pointer = function2();
 
     for(int i = 0; i<5; i++){
